@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 05</title>
+    <style>/*CSS for 註解*/
+        *{
+            height: 40px;
+        }
+        thead{
+            background-color: gray;
+        }
+        tr:nth-of-type(4){
+            background-color:black;
+        }
+        td:first-of-type{
+            background-color: gray;
+        }
+        td:nth-of-type(2){
+            background-color:greenyellow;
+        }
+        td:nth-of-type(2):hover{/*滑鼠經過時(上網找的)*/
+            background-color:rgb(7, 187, 7);
+        }
+        td:nth-of-type(3){
+            background-color:rgb(8, 126, 8);
+            font-style: italic;
+        }
+        td:nth-of-type(3):hover{
+            background-color:rgb(10, 73, 10);
+        }
+        td:nth-of-type(4){
+            background-color:rgb(71, 110, 3);
+        }
+        td:nth-of-type(4):hover{
+            background-color:rgb(49, 88, 49);
+            /*設定onmouseover事件*/
+        }
+        td:nth-of-type(5){
+            background-color:royalblue;
+        }
+        td:nth-of-type(5):hover{
+            background-color:darkslategray;
+        }
+        td:nth-of-type(6){
+            background-color:forestgreen;
+        }
+        td:nth-of-type(6):hover{
+            background-color:plum;
+        }
+        body{
+            background: darkkhaki url("../image/drivercat.jpg") no-repeat fixed right;/*設定背景圖 是否跟著跑條 位置 */
+            width: 100vw;
+            height: 100vh;
+        }
+        table{
+            display: inline-flex;
+            border-radius:10px;/*修改表格邊角*/
+            font-family: 'Microsoft JhengHei';/*今日教課舉例之1*/
+        }
+    </style>
+</head>
+<body>
+    <!--0807 lab05--><!--html註解-->
+    <h1>0807 lab5 測試</h1>
+    <table border width="1000px"style="text-align: center;" >
+        <caption style="height: 30px;"><b>課表</b></caption>
+        <thead>
+            <tr>  
+                <th></th>
+                <th><b>星期一</th>
+                <th>星期二</th>
+                <th>星期三</th>
+                <th>星期四</th>
+                <th>星期五</b></th>
+            </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>09:10</td>
+            <td>python程式基礎設計</td>
+            <td>web程式基礎設計</td>
+            <td>軟體工程專題</td>
+            <td>python程式基礎設計</td>
+            <td>web程式基礎設計</td>
+        </tr>
+        <tr>
+            <td>10:10</td>
+            <td>python程式基礎設計</td>
+            <td>web程式基礎設計</td>
+            <td>軟體工程專題</td>
+            <td>python程式基礎設計</td>
+            <td>web程式基礎設計</td>
+        </tr>
+        <tr>
+            <td>11:10</td>
+            <td>python程式基礎設計</td>
+            <td>web程式基礎設計</td>
+            <td>軟體工程專題</td>
+            <td>python程式基礎設計</td>
+            <td>web程式基礎設計</td>
+        </tr>
+        <tr>
+            <td>12:10</td> <!--修改單一字型 背景 今日修改範例之2-->
+            <td colspan="5" style="background-color:black;font-size:30px; text-shadow:greenyellow 2px 2px 30px; 
+            color:rgb(232, 241, 98);"><b>午休</b></td>
+        </tr>
+        <tr>
+            <td>13:10</td>
+            <td>python程式基礎設計</td>
+            <td>web程式基礎設計</td>
+            <td>資訊概論</td>
+            <td>python程式基礎設計</td>
+            <td>web程式基礎設計</td>
+        </tr>
+        <tr>
+            <td>14:10</td>
+            <td>python程式基礎設計</td>
+            <td>web程式基礎設計</td>
+            <td>資訊概論</td>
+            <td>python程式基礎設計</td>
+            <td>web程式基礎設計</td>
+        </tr>
+        <tr>
+            <td>15:10</td>
+            <td>python程式基礎設計</td>
+            <td>web程式基礎設計</td>
+            <td>資訊概論</td>
+            <td>python程式基礎設計</td>
+            <td>web程式基礎設計</td>
+        </tr>
+        <tr>
+            <td>16:10</td>
+            <td colspan="5" style="background-color:silver;"></td>
+        </tr>
+    </tbody>
+    </table>
+</body>
+</html>
