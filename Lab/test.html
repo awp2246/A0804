@@ -1,18 +1,23 @@
-<style>
-body{
-  margin: 0;
-}
-a{
-  margin-left:0
-}
-a1{
-  margin-left:5;
-}
-</style>
+<!doctype html>
 
-<div class='jack'> 
-  <div class='peter'>
-      <a>123</a><a1>dddd</a1>
-  </div>
-  
-</div>
+
+<script>
+  function foo() {
+    // 在 function 裡面宣告的變數，作用(存在)範圍只在 function 裡面 (local)
+    var a=['ss']
+    alert(a); // 會顯示 Ferrari
+}
+
+function fo(a){
+    alert(a)
+
+  }
+
+a=['ff','aa']
+foo()
+
+fo(a)
+
+</script>
+
+
